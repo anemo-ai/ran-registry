@@ -3,12 +3,14 @@ attention_is_all_you_need:
         versions:
             - tag: v0
               repo_url: https://github.com/AmeerArsala/ran-picoGPT.git
+              description: "GPT in pure numpy"
               dependencies: []
                   #- numpy==1.23.1
     testuser:
         versions:
             - tag: v1
               repo_url: https://github.com/AmeerArsala/ran-test
+              description: "Test project"
               dependencies: []
                   #- numpy==1.23.1
                   
