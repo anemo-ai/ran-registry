@@ -18,3 +18,10 @@ mamba2:
       description: Test Description
       repo_url: ''
       tag: v0.0.1
+mamba3:
+  sanner:
+    versions:
+    - dependencies: []
+      description: Test Description
+      repo_url: ''
+      tag: v0.0.1
