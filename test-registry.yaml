@@ -1,16 +1,20 @@
 attention_is_all_you_need:
-    randefault:
-        versions:
-            - tag: v0
-              repo_url: https://github.com/AmeerArsala/ran-picoGPT.git
-              description: "GPT in pure numpy"
-              dependencies: []
-                  #- numpy==1.23.1
-    testuser:
-        versions:
-            - tag: v1
-              repo_url: https://github.com/AmeerArsala/ran-test
-              description: "Test project"
-              dependencies: []
-                  #- numpy==1.23.1
-                  
+  randefault:
+    versions:
+    - dependencies: []
+      description: GPT in pure numpy
+      repo_url: https://github.com/AmeerArsala/ran-picoGPT.git
+      tag: v0
+  testuser:
+    versions:
+    - dependencies: []
+      description: Test project
+      repo_url: https://github.com/AmeerArsala/ran-test
+      tag: v1
+mamba2:
+  sanner:
+    versions:
+    - dependencies: []
+      description: Test Description
+      repo_url: ''
+      tag: v0.0.1
