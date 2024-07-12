@@ -1,7 +1,8 @@
 attention_is_all_you_need:
   randefault:
     versions:
-    - dependencies: []
+    - dependencies:
+        - noisolate:"conda-forge::numpy>=1.23.1,<1.24.0"
       description: GPT in pure numpy
       repo_url: https://github.com/AmeerArsala/ran-picoGPT.git
       tag: v0
