@@ -32,3 +32,10 @@ mamba4:
       description: Test Description
       repo_url: ''
       tag: v0.0.1
+mamba6:
+  test:
+    versions:
+    - dependencies: []
+      description: Test Description
+      repo_url: ''
+      tag: v0.0.1
