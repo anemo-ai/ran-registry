@@ -39,3 +39,10 @@ mamba6:
       description: Test Description
       repo_url: ''
       tag: v0.0.1
+mamba7:
+  test:
+    versions:
+    - dependencies: []
+      description: Test Description
+      repo_url: ''
+      tag: v0.0.1
