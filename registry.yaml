@@ -6,6 +6,8 @@ attention_is_all_you_need:
               description: GPT in pure numpy
               dependencies:
                   - "noisolate:\"conda-forge::numpy>=1.23.1,<1.24.0\""
+                  - "noisolate:\"regex==2017.4.5\""
+                  - "noisolate:\"requests==2.27.1\""
     testuser:
         versions:
             - tag: v1
